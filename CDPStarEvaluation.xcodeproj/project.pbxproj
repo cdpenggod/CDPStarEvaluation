@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049C2F9A1AE48A5D0001246F /* CDPStarEvaluation.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C2F991AE48A5D0001246F /* CDPStarEvaluation.m */; };
 		04B621091ACD182D00ED47C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B621081ACD182D00ED47C0 /* main.m */; };
 		04B6210C1ACD182D00ED47C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6210B1ACD182D00ED47C0 /* AppDelegate.m */; };
 		04B6210F1ACD182D00ED47C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6210E1ACD182D00ED47C0 /* ViewController.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049C2F981AE48A5D0001246F /* CDPStarEvaluation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPStarEvaluation.h; sourceTree = "<group>"; };
+		049C2F991AE48A5D0001246F /* CDPStarEvaluation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPStarEvaluation.m; sourceTree = "<group>"; };
 		04B621031ACD182D00ED47C0 /* CDPStarEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDPStarEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B621071ACD182D00ED47C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B621081ACD182D00ED47C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 		04B620FA1ACD182D00ED47C0 = {
 			isa = PBXGroup;
 			children = (
+				049C2F981AE48A5D0001246F /* CDPStarEvaluation.h */,
+				049C2F991AE48A5D0001246F /* CDPStarEvaluation.m */,
 				04B6212C1ACD195300ED47C0 /* image */,
 				04B621051ACD182D00ED47C0 /* CDPStarEvaluation */,
 				04B6211F1ACD182D00ED47C0 /* CDPStarEvaluationTests */,
@@ -254,6 +259,7 @@
 				04B6210F1ACD182D00ED47C0 /* ViewController.m in Sources */,
 				04B6210C1ACD182D00ED47C0 /* AppDelegate.m in Sources */,
 				04B621091ACD182D00ED47C0 /* main.m in Sources */,
+				049C2F9A1AE48A5D0001246F /* CDPStarEvaluation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +450,7 @@
 				04B621281ACD182D00ED47C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B621291ACD182D00ED47C0 /* Build configuration list for PBXNativeTarget "CDPStarEvaluationTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +459,7 @@
 				04B6212B1ACD182D00ED47C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
